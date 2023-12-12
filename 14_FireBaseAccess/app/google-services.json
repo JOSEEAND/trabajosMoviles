@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "367393233676",
+    "project_id": "phpafirebase-1458e",
+    "storage_bucket": "phpafirebase-1458e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367393233676:android:d4ba343ac9e5461b1c4729",
+        "android_client_info": {
+          "package_name": "com.demojosean.a14_firebaseaccess"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_eSHN4B2bziw7n1cvzpxREzWGvDTcFjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

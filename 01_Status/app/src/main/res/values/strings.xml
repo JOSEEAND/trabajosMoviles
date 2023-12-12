@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">01_Status</string>
+
+    <string name="title">Estados de la aplicación</string>
+    <string name="txtid">Identificación</string>
+    <string name="txtpw">Contraseña</string>
+</resources>

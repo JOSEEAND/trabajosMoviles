@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/edtCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Codigo" />
+
+    <EditText
+        android:id="@+id/edtProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtCode"
+        android:layout_marginTop="8dp"
+        android:hint="Nombre del Producto"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/edtPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtProductName"
+        android:layout_marginTop="8dp"
+        android:hint="Precio" />
+
+    <EditText
+        android:id="@+id/edtQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtPrice"
+        android:layout_marginTop="8dp"
+        android:hint="Cantidad" />
+
+    <EditText
+        android:id="@+id/edtDiscount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtQuantity"
+        android:layout_marginTop="8dp"
+        android:hint="Descuento" />
+
+    <EditText
+        android:id="@+id/edtSubtotal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtDiscount"
+        android:layout_marginTop="8dp"
+        android:hint="Subtotal" />
+
+    <Button
+        android:id="@+id/btnSaveProduct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtSubtotal"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentEnd="true"
+        android:text="Aplicar compra" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtSubtotal"
+        android:layout_marginTop="16dp"
+        android:layout_alignParentStart="true"
+        android:text="Cancelar" />
+</RelativeLayout>
